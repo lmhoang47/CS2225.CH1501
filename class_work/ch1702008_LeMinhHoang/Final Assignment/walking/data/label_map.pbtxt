@@ -1,0 +1,11 @@
+item {
+    id: 1
+    name: 'bike_walker'
+    display_name: 'bike_walker'
+ }
+
+item {
+    id: 2
+    name: 'motor_walker'
+    display_name: 'motor_walker'
+ }

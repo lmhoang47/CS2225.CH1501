@@ -1,0 +1,25 @@
+1. Python files *.ipynb
+- Install the TensorFlow Object detection API
+- Select the model for training:
+ + File "Vehicle_Walking_RCNN.ipynb": faster_rcnn_inception_v2
+ + File "Vehicle_Walking_SDD.ipynb": ssd_mobilenet_v2
+- Image, Label, Annotation, Training vs Testing data
+- Process images & labels
+- Download Tensorflow model which contains Object Detection API
+- Generate Tensorflow record
+- Download the Base Model which was selected above and is used for training
+- Configure the Training Pipeline
+- Create Tensorboard link for monitoring the training process
+- Begin to train model
+- Export the trained model for reuse - inference
+- Test video & picture
+- Tensorboard
+- LabelImg instruction
+- Image resize
+
+2. Folder "walking": output video, training TF data, pipeline config & inference model for RCNN
+Full project folder: https://drive.google.com/drive/folders/1_pcDIoZRL4q_xzHxBToHUM0xBfYIgac2?usp=sharing
+
+
+3. Folder "Walking_SDD" output video, training TF data, pipeline config & inference model for SDD
+Full project folder: https://drive.google.com/drive/folders/1lCsH0mzs-iuqyfrHRyA3ArTiE6PsNbQ_?usp=sharing
