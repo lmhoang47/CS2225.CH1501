@@ -47,6 +47,12 @@ Augmentation: sigmoid
 - faster_rcnn_inception_v2: \
   Điểm mạnh: độ chính xác cải thiện hơn hẳn SSD trong mô hình mà các lớp đối tượng có feature tương đối giống nhau\
   Điểm yếu: nếu các đối tượng có rounding box chồng lấn, phương pháp RCNN không thể xác định chính xác vị trí của đối tượng mà tạo ra nhiều hơn 1 rounding box cho 1 đối tượng được nhận diện
+4. Project files
+- Python files: *.ipynb
+- Folder "walking": output video, training TF data, pipeline config & inference model for RCNN\
+Full project folder: https://drive.google.com/drive/folders/1_pcDIoZRL4q_xzHxBToHUM0xBfYIgac2?usp=sharing
+- Folder "Walking_SDD" output video, training TF data, pipeline config & inference model for SDD\
+Full project folder: https://drive.google.com/drive/folders/1lCsH0mzs-iuqyfrHRyA3ArTiE6PsNbQ_?usp=sharing
 
 ## Install the TensorFlow Object detection API
 Selected tenorflow version is 1.15.0, object detection API is removed from tf v 2.0+
