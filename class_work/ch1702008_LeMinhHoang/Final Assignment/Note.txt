@@ -1,0 +1,7 @@
+1. Python files *.ipynb
+
+2. Folder "walking": output video, training TF data, pipeline config & inference model for RCNN
+Full project folder: https://drive.google.com/drive/folders/1_pcDIoZRL4q_xzHxBToHUM0xBfYIgac2?usp=sharing
+
+3. Folder "Walking_SDD" output video, training TF data, pipeline config & inference model for SDD
+Full project folder: https://drive.google.com/drive/folders/1lCsH0mzs-iuqyfrHRyA3ArTiE6PsNbQ_?usp=sharing
